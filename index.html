@@ -48,7 +48,8 @@ function updateImage() {
   var kI = document.getElementById("kISlider").value;
   var kD = document.getElementById("kDSlider").value;
 
-  var imageUrl = 'images/z_' + kD + '_y_' + kI + '_x_' + kP + '.jpg';
+  // Adjust the image path based on your repository structure
+  var imageUrl = 'https://tobycheng354.github.io/PID-Controller/images/z_' + kD + '_y_' + kI + '_x_' + kP + '.jpg';
 
   document.getElementById("displayedImage").src = imageUrl;
 }
